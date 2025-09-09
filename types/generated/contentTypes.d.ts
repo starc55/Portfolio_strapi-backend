@@ -421,7 +421,9 @@ export interface ApiTemplateTemplate extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    category: Schema.Attribute.Enumeration<['html', 'css', 'js']>;
+    category: Schema.Attribute.Enumeration<
+      ['buttons', 'loaders', 'animations']
+    >;
     code_css: Schema.Attribute.Text;
     code_html: Schema.Attribute.Text;
     code_js: Schema.Attribute.Text;

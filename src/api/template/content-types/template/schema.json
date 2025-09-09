@@ -20,9 +20,9 @@
     "category": {
       "type": "enumeration",
       "enum": [
-        "html",
-        "css",
-        "js"
+        "buttons",
+        "loaders",
+        "animations"
       ]
     },
     "code_html": {
