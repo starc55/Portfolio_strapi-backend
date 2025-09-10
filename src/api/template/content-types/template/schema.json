@@ -20,9 +20,10 @@
     "category": {
       "type": "enumeration",
       "enum": [
-        "buttons",
-        "loaders",
-        "animations"
+        "Buttons",
+        "Loaders",
+        "Animations",
+        "Inputs"
       ]
     },
     "code_html": {
