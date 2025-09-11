@@ -422,7 +422,7 @@ export interface ApiTemplateTemplate extends Struct.CollectionTypeSchema {
   };
   attributes: {
     category: Schema.Attribute.Enumeration<
-      ['buttons', 'loaders', 'animations']
+      ['Buttons', 'Loaders', 'Animations', 'Inputs']
     >;
     code_css: Schema.Attribute.Text;
     code_html: Schema.Attribute.Text;
